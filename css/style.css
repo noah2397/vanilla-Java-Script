@@ -1,11 +1,19 @@
+body {
+  box-sizing: border-box;
+  color: white;
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
 .hidden {
   display: none;
 }
-img {
-  position: fixed;
-  top: 0;
-  left: 0;
-  height: 100vh;
-  width: 100vw;
-  z-index: -1;
+#weather {
+  position: absolute;
+  top: 30pt;
+  left: 30pt;
+  opacity: 0.8;
 }

@@ -1,0 +1,15 @@
+input::placeholder {
+  color: white;
+}
+#login-form input {
+  color: white;
+  border: none;
+  border-bottom: 3px solid whitesmoke;
+  background-color: transparent;
+  width: 200px;
+}
+#login-form button {
+  border: none;
+  background-color: transparent;
+  color: white;
+}

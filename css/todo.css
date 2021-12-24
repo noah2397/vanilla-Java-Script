@@ -1,0 +1,29 @@
+.delete--btn {
+  background-color: transparent;
+  border: none;
+}
+.list {
+  margin: 10px;
+}
+.todo {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 40px;
+}
+.todo-form {
+  color: black;
+}
+.todo-input {
+  color: white;
+  border: none;
+  border-bottom: 3px solid whitesmoke;
+  background-color: transparent;
+  width: 200px;
+}
+.li {
+  margin: 10px;
+}
+ul {
+  list-style: none;
+}

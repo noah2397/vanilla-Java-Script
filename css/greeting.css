@@ -1,0 +1,20 @@
+@keyframes hello {
+  from {
+    opacity: 0;
+    transform: scale(0.5);
+  }
+  to {
+    opacity: 1;
+    transform: scale(2);
+  }
+}
+
+#greeting,
+#greeting2 {
+  animation: hello 1s ease-in-out forwards;
+}
+#greeting2 {
+  font-size: 3pt;
+  opacity: 0;
+  animation-delay: 2s;
+}
